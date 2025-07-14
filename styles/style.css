@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Fira Sans;
+}
+
+body {
+    background-color: rgb(247, 243, 243);
+}
+
+/* common css */
+.btn {
+    border: 1px solid #006A50;
+    color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.colors-btn {
+    border: 1px solid #006A50;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 8px;
+    background-color: #006A50;
+}
+
+nav {
+    display: flex;
+    max-width: 1600px;
+    justify-content: space-between;
+    padding: 24px 160px;
+    align-items: center;
+}
+
+nav h2 {
+    font-size: 32px;
+    font-family: Fira Sans;
+    font-weight: bold;
+    color: black;
+}
+
+.idea-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 970px;
+    background-color: #c6e4df;
+    margin: 5px auto 80px auto;
+    padding: 60px 40px;
+    border-radius: 24px;
+}
+
+.idea-container img {
+    width: 48%;
+}
+
+section .description {
+    width: 48%;
+}
+
+.description .title {
+    font-weight: 500;
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+}
+
+.description .sub-title {
+    font-weight: bold;
+    font-size: 50px;
+    color: rgba(14, 14, 14, 1);
+    margin: 8px auto;
+}
+
+/* Pillars of Bangladesh */
+.pillars-section {
+    max-width: 1060px;
+    margin: 80px auto;
+}
+
+.pillar-header {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.pllars-container {
+    display: flex;
+    margin-top: 20px;
+    gap: 40px;
+}
+
+.pillar-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    margin-top: 24px;
+    /* margin: 5px; */
+}
+
+.pillar-sub-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.8);
+    margin-top: 10px;
+}
+
+.pillar {
+    background-color: white;
+    border-radius: 16px;
+    padding: 24px;
+    max-width: 302px;
+    height: 200px;
+}
+
+.pillar .digital-trans img {
+    width: 50px;
+    height: 50px;
+}
