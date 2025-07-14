@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(247, 243, 243);
+    background-color: rgb(245, 225, 225);
 }
 
 /* common css */
@@ -119,4 +119,132 @@ section .description {
 .pillar .digital-trans img {
     width: 50px;
     height: 50px;
+}
+
+/* The vision of Future */
+.vision-container {
+    max-width: 1060px;
+    height: 765px;
+    margin: 0px auto 40px auto;
+}
+
+.vision-pillars {
+    display: flex;
+    margin: 32px auto;
+    gap: 24px;
+}
+
+.vision-footer {
+    background-color: white;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    padding: 24px 48px;
+    border-radius: 16px;
+}
+
+.digital-trans {
+    background-color: rgba(84, 144, 245, 0.2);
+    border: 1px solid rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.digital-trans2 {
+    background-color: rgba(198, 228, 214, 1);
+    border: 1px solid rgba(198, 228, 214, 1);
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.digital-trans3 {
+    background-color: rgba(247, 235, 207, 1);
+    border: 1px solid rgba(247, 235, 207, 1);
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.title-subtitle {
+    margin: 24px 0px 24px 0px;
+}
+
+.colors-btn1 {
+    border: 1px solid rgba(84, 144, 245, 1);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 8px;
+    background-color: rgba(84, 144, 245, 1);
+}
+
+.colors-btn2 {
+    border: 1px solid rgba(9, 161, 92, 1);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 8px;
+    background-color: rgba(9, 161, 92, 1);
+}
+
+.colors-btn3 {
+    border: 1px solid rgba(255, 194, 57, 1);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 8px;
+    background-color: rgba(255, 194, 57, 1);
+}
+
+/* Opinion container */
+.opinion-container {
+    max-width: 1060px;
+    height: 481px;
+    margin: 0px auto 60px auto;
+}
+
+.form-container {
+    background-color: white;
+    padding: 32px;
+    margin-top: 24px;
+    border-radius: 16px;
+}
+
+.question-sec {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(198, 228, 214, 1);
+    padding: 24px;
+}
+
+.item-container {
+    display: flex;
+}
+
+.item {
+    border: 1px solid rgba(34, 34, 34, 0.1);
+    padding: 24px 150px 24px 24px;
+    /* max-width: 100%; */
+    max-width: 1260px;
+}
+
+.item label {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.item-box {
+    border: 1px solid rgba(34, 34, 34, 0.1);
+    border-left: none;
+    padding: 24px;
+}
+
+.item-box select {
+    border: 1px solid black;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 35px 10px 10px;
+    background-color: rgba(198, 228, 214, 1);
 }
