@@ -19,6 +19,16 @@ body {
     background-color: white;
 }
 
+.btn:hover {
+    border: 2px solid rgb(170, 40, 159);
+    color: #dddddd;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: rgb(255, 57, 189);
+}
+
 .colors-btn {
     border: 1px solid #006A50;
     color: #ffffff;
@@ -27,6 +37,16 @@ body {
     padding: 15px 30px;
     border-radius: 8px;
     background-color: #006A50;
+}
+
+.colors-btn:hover {
+    border: 1px solid #e7e7e7;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 8px;
+    background-color: #6a1e00;
 }
 
 nav {
@@ -177,6 +197,16 @@ section .description {
     background-color: rgba(84, 144, 245, 1);
 }
 
+.colors-btn1:hover {
+    border: 1px solid rgb(235, 235, 235);
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: rgb(255, 57, 189);
+}
+
 .colors-btn2 {
     border: 1px solid rgba(9, 161, 92, 1);
     color: #ffffff;
@@ -187,6 +217,16 @@ section .description {
     background-color: rgba(9, 161, 92, 1);
 }
 
+.colors-btn2:hover {
+    border: 3px solid rgb(76, 218, 57);
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: rgb(255, 57, 189);
+}
+
 .colors-btn3 {
     border: 1px solid rgba(255, 194, 57, 1);
     color: #ffffff;
@@ -195,6 +235,16 @@ section .description {
     padding: 15px 30px;
     border-radius: 8px;
     background-color: rgba(255, 194, 57, 1);
+}
+
+.colors-btn3:hover {
+    border: 1px solid rgb(55, 170, 40);
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: rgb(255, 57, 189);
 }
 
 /* Opinion container */
@@ -292,4 +342,103 @@ span {
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
     margin-bottom: 32px;
+}
+
+/* donate container */
+.donate-section-container {
+    max-width: 1060px;
+    margin: 0px auto 60px auto;
+    text-align: center;
+}
+
+.taka-container {
+    display: flex;
+    justify-content: center;
+    /* gap: 24px; */
+}
+
+.taka-container h1 {
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px 30px;
+    margin: 32px 18px 32px 18px;
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 200px;
+    max-height: 10px;
+}
+
+.taka-container .colors-taka {
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.added-others-amount {
+    color: rgba(14, 14, 14, 0.3);
+    background-color: white;
+    padding: 20px 40px;
+    margin-bottom: 32px;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 800px;
+    margin: 0px auto 32px auto;
+}
+
+/* newsletter section */
+.newsletter {
+    max-width: 1060px;
+    margin: 0px auto 60px auto;
+    background-color: rgba(198, 228, 214, 1);
+    padding: 80px 100px;
+    text-align: center;
+    border-radius: 24px;
+}
+
+.newsletter .pillar-sub-title {
+    margin: 20px 0px;
+}
+
+
+
+.email-added {
+    color: #ffffff;
+    font-size: 18px;
+    padding: 18px 40px;
+    border-radius: 8px;
+    background-color: white;
+    border: none;
+    margin-right: 0px;
+    height: 25px;
+}
+
+.submit-btn {
+    border: 1px solid #006A50;
+    background-color: #006A50;
+    color: white;
+    padding: 17px 34px;
+    margin-left: 0px;
+    border-radius: 8px;
+    height: 60px;
+}
+
+/* footer section */
+footer {
+    max-width: 100%;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    padding: 50px 160px;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer .pillar-header {
+    font-size: 32px;
 }
